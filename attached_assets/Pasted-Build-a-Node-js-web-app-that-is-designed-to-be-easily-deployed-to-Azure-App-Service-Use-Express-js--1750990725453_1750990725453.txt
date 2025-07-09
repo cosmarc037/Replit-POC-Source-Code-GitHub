@@ -1,0 +1,40 @@
+Build a Node.js web app that is designed to be easily deployed to Azure App Service. Use Express.js for the backend and basic HTML/CSS or EJS templates for the frontend (no heavy frontend framework like React). The app should:
+
+1. Allow users to input a short company description (e.g., a private company summary from an investment memo).
+
+2. Use the OpenAI GPT-4 API (via the `openai` npm package) to extract:
+   - Industry
+   - Region (geography)
+   - Estimated revenue or revenue range
+   - Business model
+
+3. Match 3–5 public comparable companies using a preloaded CSV or JSON file of public tickers with metadata (e.g., industry, region, size).
+
+4. For each matched company, use the `yahoo-finance2` npm package to retrieve:
+   - Market cap
+   - Revenue
+   - P/E ratio
+   - EV/EBITDA
+   - 1-year stock price change
+   - A short company summary
+
+5. Display the results in a simple HTML table and generate a GPT-4 summary that compares the private company to the public comps. The summary should explain:
+   - Key valuation gaps
+   - Strategic or market differences
+   - Any red flags or standout strengths
+
+6. Include the following for Azure compatibility:
+   - Use `dotenv` to manage environment variables (`OPENAI_API_KEY`, etc.)
+   - Keep all secrets in `.env` (Azure App Service supports this easily)
+   - Modular structure: separate route handlers (`routes/`), services (`services/openai.js`, `services/yahooFinance.js`), and views
+   - A basic health-check route (`/ping`) for Azure readiness
+   - Ensure `package.json` has a start script like `"start": "node index.js"`
+
+7. Optional: Allow export of the comp table as CSV. Prepare for possible later integration with Azure Blob Storage or Cosmos DB.
+
+8. Add a `README.md` with:
+   - Setup instructions
+   - How to run locally (`npm install && npm start`)
+   - Notes on deploying to Azure App Service (e.g., set environment variables in Azure portal)
+
+Keep the code clean and well-commented. Provide a complete working app that runs on Replit and can be pushed to GitHub for Azure deployment.

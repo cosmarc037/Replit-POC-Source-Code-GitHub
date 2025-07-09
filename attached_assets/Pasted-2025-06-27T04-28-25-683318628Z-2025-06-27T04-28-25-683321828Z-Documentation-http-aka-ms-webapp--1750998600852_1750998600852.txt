@@ -1,0 +1,40 @@
+2025-06-27T04:28:25.683318628Z
+2025-06-27T04:28:25.683321828Z  Documentation: http://aka.ms/webapp-linux
+2025-06-27T04:28:25.683324928Z  NodeJS quickstart: https://aka.ms/node-qs
+2025-06-27T04:28:25.683328128Z  NodeJS Version : v20.19.1
+2025-06-27T04:28:25.683331328Z  Note: Any data outside '/home' is not persisted
+2025-06-27T04:28:25.683334728Z
+2025-06-27T04:28:28.959853824Z  Starting OpenBSD Secure Shell server: sshd.
+2025-06-27T04:28:28.979029070Z  WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2025-06-27T04:28:29.017263663Z  Updating certificates in /etc/ssl/certs...
+2025-06-27T04:28:40.778793057Z  rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL
+2025-06-27T04:28:40.902936887Z  2 added, 0 removed; done.
+2025-06-27T04:28:40.902959987Z  Running hooks in /etc/ca-certificates/update.d...
+2025-06-27T04:28:41.036038869Z  done.
+2025-06-27T04:28:41.102383258Z  CA certificates copied and updated successfully.
+2025-06-27T04:28:41.776220031Z  Starting periodic command scheduler: cron.
+2025-06-27T04:28:42.073794311Z  Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2025-06-27T04:28:42.073834212Z  Could not find operation ID in manifest. Generating an operation id...
+2025-06-27T04:28:42.073838912Z  Build Operation ID: c586e7e0-c452-4b4a-bf5d-36a76e00b464
+2025-06-27T04:28:42.708661456Z  Environment Variables for Application Insight's IPA Codeless Configuration exists..
+2025-06-27T04:28:42.757327682Z  Writing output script to '/opt/startup/startup.sh'
+2025-06-27T04:28:42.957638111Z  Running #!/bin/sh
+2025-06-27T04:28:42.957674711Z
+2025-06-27T04:28:42.957678911Z  # Enter the source directory to make sure the script runs where the user expects
+2025-06-27T04:28:42.957682311Z  cd "/home/site/wwwroot"
+2025-06-27T04:28:42.957685511Z
+2025-06-27T04:28:42.957688311Z  export NODE_PATH=/usr/local/lib/node_modules:$NODE_PATH
+2025-06-27T04:28:42.957692111Z  if [ -z "$PORT" ]; then
+2025-06-27T04:28:42.957695311Z  		export PORT=8080
+2025-06-27T04:28:42.957699011Z  fi
+2025-06-27T04:28:42.957701811Z
+2025-06-27T04:28:42.957704711Z  PATH="$PATH:/home/site/wwwroot" npm run start
+2025-06-27T04:28:54.940594457Z  npm info using npm@10.9.2
+2025-06-27T04:28:54.996384798Z  npm info using node@v20.19.1
+2025-06-27T04:28:57.050360650Z  npm error code ENOENT
+2025-06-27T04:28:57.051817059Z  npm error syscall open
+2025-06-27T04:28:57.053490170Z  npm error path /package.json
+2025-06-27T04:28:57.062907227Z  npm error errno -2
+2025-06-27T04:28:57.062922427Z  npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/package.json'
+2025-06-27T04:28:57.069595368Z  npm error enoent This is related to npm not being able to find a file.
+2025-06-27T04:28:57.069665068Z  npm error enoent

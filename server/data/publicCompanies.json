@@ -1,0 +1,112 @@
+{
+  "companies": [
+    {
+      "ticker": "CRM",
+      "name": "Salesforce",
+      "industry": "B2B SaaS",
+      "sector": "Technology",
+      "region": "North America",
+      "description": "Cloud Software Platform",
+      "tags": ["CRM", "Sales", "Cloud", "Enterprise"]
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow",
+      "industry": "B2B SaaS",
+      "sector": "Technology", 
+      "region": "North America",
+      "description": "Enterprise Workflow Platform",
+      "tags": ["Workflow", "IT", "Enterprise", "Automation"]
+    },
+    {
+      "ticker": "MNDY",
+      "name": "Monday.com",
+      "industry": "B2B SaaS",
+      "sector": "Technology",
+      "region": "Global",
+      "description": "Work Management Platform",
+      "tags": ["Project Management", "Collaboration", "Workflow"]
+    },
+    {
+      "ticker": "ASAN",
+      "name": "Asana",
+      "industry": "B2B SaaS",
+      "sector": "Technology",
+      "region": "North America",
+      "description": "Team Collaboration Software",
+      "tags": ["Project Management", "Team Collaboration", "Productivity"]
+    },
+    {
+      "ticker": "SMAR",
+      "name": "Smartsheet",
+      "industry": "B2B SaaS",
+      "sector": "Technology",
+      "region": "North America",
+      "description": "Enterprise Work Management",
+      "tags": ["Work Management", "Enterprise", "Collaboration"]
+    },
+    {
+      "ticker": "TEAM",
+      "name": "Atlassian",
+      "industry": "B2B SaaS",
+      "sector": "Technology",
+      "region": "Global",
+      "description": "Team Collaboration and Productivity",
+      "tags": ["Development Tools", "Collaboration", "Enterprise"]
+    },
+    {
+      "ticker": "ZM",
+      "name": "Zoom",
+      "industry": "B2B SaaS",
+      "sector": "Technology",
+      "region": "Global",
+      "description": "Video Communications Platform",
+      "tags": ["Video Conferencing", "Communications", "Remote Work"]
+    },
+    {
+      "ticker": "DDOG",
+      "name": "Datadog",
+      "industry": "B2B SaaS",
+      "sector": "Technology",
+      "region": "North America",
+      "description": "Monitoring and Analytics Platform",
+      "tags": ["Monitoring", "Analytics", "DevOps", "Cloud"]
+    },
+    {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "industry": "B2B SaaS",
+      "sector": "Technology",
+      "region": "North America",
+      "description": "Cloud Data Platform",
+      "tags": ["Data", "Cloud", "Analytics", "Enterprise"]
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "industry": "B2B SaaS",
+      "sector": "Technology",
+      "region": "North America",
+      "description": "Cybersecurity Platform",
+      "tags": ["Cybersecurity", "Cloud Security", "Enterprise"]
+    },
+    {
+      "ticker": "OKTA",
+      "name": "Okta",
+      "industry": "B2B SaaS",
+      "sector": "Technology",
+      "region": "North America",
+      "description": "Identity and Access Management",
+      "tags": ["Identity", "Security", "Enterprise", "Cloud"]
+    },
+    {
+      "ticker": "WDAY",
+      "name": "Workday",
+      "industry": "B2B SaaS",
+      "sector": "Technology",
+      "region": "North America",
+      "description": "Enterprise HR and Finance Software",
+      "tags": ["HR", "Finance", "Enterprise", "Cloud"]
+    }
+  ]
+}
